@@ -1,0 +1,75 @@
+create file index.html
+<!DOCTYPE html>
+represents the type of document
+
+then
+<html> 
+write code here
+
+<head> 
+
+<title>Basic HTML DOC </title>	
+
+</head>
+
+<body> 
+	visible code here
+
+</body>
+</html>
+
+<!--  comment -->
+
+
+live server extension
+
+lists
+used in navigation, side bar ,footer
+<!-- -->
+<ul> 
+	<li> HTMl</li>
+	<li> PYTHON </li>
+</ul>
+
+unorderd list <ul> showed by boolets
+
+ordered list <ol> showed by numbers
+
+nested list <ul> <li> HTML,css,</li> </ul>
+
+for shortcut press control + forword slash
+
+heading tag <h1..h6> </h1 .. h6>
+para tag <p> </p>
+
+span tag (connect two line word in single line)ne
+
+links
+anchor tag <a> </a>
+
+<a
+	heref="www.google.com" target="_blank" click me >
+</a>
+
+
+self closig tag
+<img src="" alt="">
+we can use images in anchor tag as well
+we can edit height and width in img tag also
+
+forms in html
+form tag is use to make form in html
+<form>
+
+<label> </label>
+<input> </input> to take input : text,email,password
+ 
+</form>
+
+insted of value use plceholder
+
+textarea
+<textarea> </textarea>
+<chechbox> </checkbox>
+<radiobuttos> </radiobuttons>
+<checkbox> </checkbox> 

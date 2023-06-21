@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.den a:link {
+  color: rgb(44, 228, 8);
+  text-decoration: none;
+}
+.den a:visited {
+  color: rgb(235, 9, 9);
+}
+.den a:hover {
+  color: blueviolet;
+}
+.den a:active {
+  color: black;
+}
+header {
+  background-color: rgb(166, 166, 230);
+}
+ul {
+  color: rgb(108, 145, 161);
+}
+a {
+  color: rgb(10, 17, 110);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+section {
+  color: rgb(115, 233, 115);
+  background-color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+}
+#first_header {
+  color: black;
+  text-align: left;
+}
+
+article {
+  font-size: 20px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+#second {
+  color: black;
+  text-align: left;
+}
+#father {
+  background-color: rgb(196, 104, 157);
+}
+
+.contact-source a {
+  display: none;
+}
+.contact a:link {
+  text-decoration: none;
+}
+.contact a:visited {
+  color: white;
+}
+.contact:hover a {
+  display: block;
+}
+.contact a:active {
+  color: black;
+}
+.den a:hover {
+  color: black;
+}
+.contact:hover a {
+  display: block;
+}
