@@ -87,3 +87,16 @@ article {
 .end img {
   width: 400px;
 }
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 10px 10px;
+  padding: 10px;
+  /* color: blue; */
+  background-color: blue;
+  transition: width 1s 0s ease, background-color 2s 0s ease;
+}
+.box:hover {
+  background-color: aqua;
+  width: 400px;
+}
