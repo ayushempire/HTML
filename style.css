@@ -79,10 +79,12 @@ article {
   padding: 5px;
   text-align: center;
   background-color: grey;
-  box-shadow: 10px 10px 10px #777;
+  box-shadow: 10px 10px 10px #aaa;
+  transition: 0.5s 0s ease;
 }
 .end:hover {
-  box-shadow: 20px 20px 20px #aaa;
+  box-shadow: 20px 20px 20px #777;
+  /* text-align: center; */
 }
 .end img {
   width: 400px;
@@ -90,7 +92,7 @@ article {
 .box {
   width: 200px;
   height: 100px;
-  margin: 10px 10px;
+  margin: 10px auto;
   padding: 10px;
   /* color: blue; */
   background-color: blue;
