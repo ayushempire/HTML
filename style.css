@@ -15,6 +15,7 @@
 }
 header {
   background-color: rgb(166, 166, 230);
+  text-shadow: 2px 2px 1px green;
 }
 ul {
   color: rgb(108, 145, 161);
@@ -71,4 +72,18 @@ article {
 }
 .contact:hover a {
   display: block;
+}
+.end {
+  width: 400px;
+  margin: 50px 150px;
+  padding: 5px;
+  text-align: center;
+  background-color: grey;
+  box-shadow: 10px 10px 10px #777;
+}
+.end:hover {
+  box-shadow: 20px 20px 20px #aaa;
+}
+.end img {
+  width: 400px;
 }
