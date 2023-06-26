@@ -16,6 +16,13 @@
         /* grid-template-columns: 1fr 1fr 1fr 1fr; */
         grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
         grid-gap: 1rem;
+
+        grid-template-areas:
+          "header header header header"
+          "slidebar main main main"
+          "slidebar main main main"
+          "slidebar box1 box2 box3"
+          "footer footer footer footer";
       }
 
       .container div {
@@ -28,11 +35,13 @@
       .header {
         /* grid-column: 1 / 5; */
         grid-column: col-start 1 / col-end -1;
+        /* grid-area: header; */
         /* text-align: center; */
       }
       .slidebar {
         grid-row: main-start / 5;
         text-align: center;
+        /* grid-area: slidebar; */
       }
       .main {
         text-align: center;
