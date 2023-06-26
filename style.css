@@ -105,3 +105,24 @@ article {
 .box:active {
   background-color: aquamarine;
 }
+.new_box {
+  /* margin :auto */
+  height: 200px;
+  width: 200px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  /* padding: 100px; */
+  padding-top: 100px;
+  /* content: ; */
+  transition: transform 1s;
+  box-sizing: border-box;
+}
+.new_box:hover {
+  /* transform: translateX(200px); */
+  /* transform: scale(2, 2); */
+  /* transform: rotateZ(30deg); */
+  /* transform: skew(45deg); */
+  transform: translate(200px) scale(2, 1) rotateX(20deg) skew(2deg);
+}
